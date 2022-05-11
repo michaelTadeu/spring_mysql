@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS  usuario (
+  id INT NOT NULL AUTO_INCREMENT,
+  primeiro_nome VARCHAR(50) NOT NULL,
+  sobrenome VARCHAR(50) NOT NULL,
+  data_cadastro DATETIME(6) NOT NULL,
+  PRIMARY KEY (id))
+ENGINE=InnoDB;
